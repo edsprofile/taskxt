@@ -1,0 +1,28 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+from sklearn import datasets
+#video music awards
+#counter
+#hiwater_rss
+#hiwater_vm
+#total_vm
+#data_vm
+#exec_vm
+#bytes_counter
+#utime
+#stime
+#nvcsw
+#nivcsw
+#min_flt
+#locked
+#users
+
+data = pd.read_csv("/home/someone/work/data/csv/find.csv");
+print(data.head())
+print(data.shape)
+headers = list(data.columns.values)
+print(headers)
+print(data.to_numpy())
+
